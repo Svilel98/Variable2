@@ -104,7 +104,7 @@ public class Main {
         short dayLossMax = (short) (weightKilogramms / weightLossMin);
         short dayLossMin = (short) (weightKilogramms / weightLossMax);
         float dayLossMiddle = weightKilogramms / weightLossMiddle;
-        // округлять не стал в большую сторону, так как не проходили и незнаю как)
+        // округлять не стал в большую сторону, так как не проходили и честно незнаю как)
         System.out.println("Потребуется для похудения максимум " + dayLossMax + " дней, минимум потребуется " + dayLossMin + " дней, в среднем потребуется " + dayLossMiddle + " дней.");
     }
     public static void task8() {
